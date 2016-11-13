@@ -1,0 +1,39 @@
+body{
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight: 100;
+}
+hr{
+	border: 2px solid #BCBBBB;
+}
+.text-muted{
+	color: #BCBBBB;
+}
+
+.text-thin{
+	font-weight: 100;
+}
+
+.title-super{
+	font-size: 60pt;
+}
+.logo{
+	margin-top: 20px;
+}
+.modal-paragraph{
+	font-weight: 400;
+	font-size: 20px;
+}
+.modal-title{
+	font-size: 30px;
+}
+.navbar{
+	font-weight: 300;
+	font-size: 17px;
+}
+.navbar-brand{
+	font-size:25px;
+}
+.dropdown-text{
+	font-size: 15px;
+}

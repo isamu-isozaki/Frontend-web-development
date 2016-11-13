@@ -1,0 +1,100 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.map-canvas {
+	height: 100%;
+	z-index: 0;
+}
+
+* {
+	font-family: 'Passion One', cursive;
+
+}
+
+.container-fluid, .col-md-9, .col-md-3{
+	padding: 0;
+}
+
+.infoWin {
+	background-color: rgba(69, 117, 205, 0.5);
+	font-family: 'Dosis', sans-serif;
+}
+
+.title {
+	font-size: 20px;
+}
+
+.info {
+	background-color: rgba(138, 101, 160, 0.5);
+}
+
+div.stars,
+div.stars div { /*	Courtesy of http://stackoverflow.com/questions/1987524/turn-a-number-into-star-rating-display-using-jquery-and-css */
+	display: block;
+	background: url(../img/star-empty.png) repeat-x;
+	height: 30px;
+	width: 150px;
+}
+
+div.stars div {
+	background: url(../img/star-full.png) repeat-x;
+}
+
+.rating {
+	background-color: rgba(22, 143, 50, 0.53);
+}
+
+.stats {
+	font-size: 20px;
+}
+
+.list-group {
+	overflow-y: scroll;
+	overflow-x: hidden;/* Thanks, http://stackoverflow.com/questions/2594389/hide-html-horizontal-but-not-vertical-scrollbar */
+	margin-bottom: 0;
+}
+
+.nav {
+	margin-right: 0;
+	margin-left: 0;
+	background-color: rgba(110, 110, 110, 0.79);
+}
+
+.search {
+	margin-top: 15px;
+}
+
+.content {
+	margin: 0;
+}
+
+.infoWin {
+	overflow: hidden;
+}
+
+.pagetitle {
+	color: #dddddd;
+}
+
+.attribution {
+	position: absolute;
+	z-index: 1;
+}
+
+@media screen and (min-width: 769px) {/* This media query gets applied only if the user has a device at the width on an upright Ipad, hence users would get the option to toggle the list on and off*/
+	.toggle-parent {
+		display: none;
+	}
+
+	.list {
+		display: block;
+	}
+}
+
+.input-group-addon {
+	border: none;
+}
